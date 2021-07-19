@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Ecommerce</title>
+    <!-- Bootstrap Stylesheet-->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <Header>
+        <div class="container-lg">
+            <div class="navbar navbar-expand-lg navbar-light d-flex justify-content-between py-4">
+                <a href="#" class="navbar-brand">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <form action="" class="d-none d-md-flex">
+                    <input size="30" placeholder="Search" type="search" class="form-control rounded-pill bg-light border-0">
+                    <i class="fas fa-search"></i>
+                </form> 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarText">
+                    <ul class="navbar-nav" >
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </Header>
+
+    <section id="showcase" class="py-5">
+        <div class="container-lg">
+            <div class="carousel slide" data-bs-ride="carousel" id="showcase-slider">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row p-4 d-flex align-items-center">
+                            <div class="col-7">
+                                <h1>Cool Dude Headphone</h1>
+                                <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                                <h2 class="text-danger">$420</h2>
+                                <a href="" class="btn  btn-lg btn-danger">Buy Now</a>
+                                
+                            </div>
+                            <div class="col-5">
+                                <img class="img-fluid" src="images/banner-images/headphone.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row p-4 d-flex align-items-center">
+                            <div class="col-7">
+                                <h1>Mi LED TV 4A PRO 32</h1>
+                                <p>The latest version lets you disable the "Smart Update" option (enabling is recommended) to cancel automatic ROM updates.</p>
+                                <h2 class="text-danger">$1289</h2>
+                                <a href="" class="btn btn-lg btn-danger">Buy Now </a>
+                            </div>
+                            <div class="col-5">
+                                <img class="img-fluid" src="images/banner-images/tv.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row p-4 d-flex align-items-center">
+                            <div class="col-7">
+                                <h1>X-Box for your living room</h1>
+                                <p>This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
+                                <h2 class="text-danger">$600</h2>
+                                <a href="" class="btn btn-danger">Buy Now</a>
+                            </div>
+                            <div class="col-5">
+                                <img class="img-fluid" src="images/banner-images/xbox.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#showcase-slider" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#showcase-slider" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+            </div>
+        </div>
+    </section>
+   
+    <section id="categories" class="py-2 mb-5">
+        <div class="container-lg">
+            <h2 class="mb-4">Categories</h2>
+            <div class="row g-5 p-2">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="item row d-flex align-items-center bg-warning p-3">
+                        <div class="col-8">
+                            <p class="h2 text-light">Watch</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="images/categories/watch.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="item row d-flex align-items-center bg-danger p-3">
+                        <div class="col-8">
+                            <p class="h2 text-light">Bag</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="images/categories/bag.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="item row d-flex align-items-center bg-primary p-3">
+                        <div class="col-8">
+                            <p class="h2 text-light">Shoes</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="images/categories/shoes.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Products -->
+    <section id="products" class="py-5">
+        <div class="container">
+            <div id="shoes" class="my-2">
+                <div class="container-lg">
+                    <h2 class="mb-4">Shoes</h2>
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-6 col-md-4 rounded-3">
+                            <div class="bg-white p-4">
+                                <img src="images/shoes/shoe-1.png" alt="" class="img-fluid">
+                                <h5 class="py-3">Reebok Dart Men’s Shoes</h5>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                                <h4>$1289</h4>
+                                <a href="" class="btn btn-dark">Buy Now</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 rounded-3">
+                            <div class="bg-white p-4">
+                                <img src="images/shoes/shoe-2.png" alt="" class="img-fluid">
+                                <h5 class="py-3">Reebok Pump</h5>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                                <h4>$1289</h4>
+                                <a href="" class="btn btn-dark">Buy Now</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 rounded-3">
+                            <div class="bg-white p-4">
+                                <img src="images/shoes/shoe-3.png" alt="" class="img-fluid">
+                                <h5 class="py-3">Reebok All Terrain</h5>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                                <h4>$1289</h4>
+                                <a href="" class="btn btn-dark">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="bags" class="my-5">
+                <div class="container-lg">
+                    <h2 class="mb-4">Backpack</h2>
+                    <div class="row text-center g-3">
+                        <div class="col-12 col-sm-6 col-md-4 rounded-3 ">
+                            <div class="bg-white p-4">
+                                <img src="images/bags/bag-1.png" alt="" class="img-fluid">
+                                <h5 class="py-3">Ison Backpack</h5>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                                <h4>$1289</h4>
+                                <a href="" class="btn btn-dark">Buy Now</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 rounded-3 ">
+                            <div class="bg-white p-4">
+                                <img src="images/bags/bag-2.png" alt="" class="img-fluid">
+                                <h5 class="py-3">Biaowang Backpack</h5>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                                <h4>$1289</h4>
+                                <a href="" class="btn btn-dark">Buy Now</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 rounded-3 ">
+                            <div class="bg-white p-4">
+                                <img src="images/bags/bag-3.png" alt="" class="img-fluid">
+                                <h5 class="py-3">Dxyizu WS54 Smart</h5>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                                <h4>$1289</h4>
+                                <a href="" class="btn btn-dark">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="my-5">
+        <div class="container-lg  text-center">
+            <div class="details">
+                <h4>Let's Stay In Touch</h4>
+                <p>Get updates on sales specials and more</p>
+                <form action="" class="d-flex justify-content-center">
+                    <div class="btn-group">
+                        <input size="30" placeholder="Enter Your Email" type="text" class="form-control form-control-lg border-0">
+                        <a href="" class="btn btn-primary btn-lg">Send</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap Js -->
+    
+    <script src="bootstrap.min.js"></script>
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ce18724596.js" crossorigin="anonymous"></script>
+</html>

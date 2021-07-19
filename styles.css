@@ -1,0 +1,60 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    /* box-sizing: border-box; */
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+form{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+header .fas{
+    position: absolute;
+    right: 10px;
+    color: rgb(197, 197, 197);
+}
+
+.carousel-item{
+    background-color: #FEEAE9;
+    border-radius: 15px;
+}
+
+h1{
+    font-weight: bold;
+}
+
+h2{
+    font-weight: bold;
+}
+
+#categories .item{
+    border-radius: 10px;
+}
+
+#categories .container-lg > .row{
+    
+}
+
+#products{
+    background: #F4F4F4;
+}
+
+#products h5{
+    font-weight: bold;
+}
+
+#newsletter .container-lg .details h4{
+    font-weight: bold;
+}
+
+#newsletter .details{
+    background: #FFF2F1;
+    padding: 90px 0;
+}
